@@ -1,0 +1,8 @@
+Completa el siguiente código con las opciones introducidas en el print: 
+tienda = {}
+while True: print("1. Insertar producto.")
+print("2. Modificar producto.")
+print("3. Eliminar registro.")
+print("0. Salir.")
+opcion = int(input("Elije la operación que deseas realizar: "))
+
