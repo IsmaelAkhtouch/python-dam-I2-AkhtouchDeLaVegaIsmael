@@ -1,0 +1,12 @@
+Hazme un programa en python para crear personajes en videojuegos.
+El programa consistirá en una lista de personajes,
+cada personaje siendo un diccionario que tendrá los elementos
+de "nombre", "ataque", "defensa" y "vida".
+Las estadísticas son números enteros.
+El programa permite al usuario crear y
+añadir un personaje, mostrar los distintos personajes,
+cambiar las estadísticas de un personaje,
+eliminar un personaje y salir del programa.
+Este también debe estar organizado en diferentes funciones
+y se deben de manejar las distintas excepciones que se puedan originar. 
+Además debe hacer uso de mínimo un modulo estándar de python de forma útil.

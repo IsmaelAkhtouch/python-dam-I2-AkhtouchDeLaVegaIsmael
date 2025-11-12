@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Lena",
+        "ataque": 70,
+        "defensa": 30,
+        "vida": 300
+    },
+    {
+        "nombre": "Alex",
+        "ataque": 30,
+        "defensa": 60,
+        "vida": 400
+    }
+]

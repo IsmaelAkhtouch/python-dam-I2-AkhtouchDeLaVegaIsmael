@@ -1,0 +1,3 @@
+Haz el siguiente ejercicio explicando que haces paso a paso. auxprecios.py debe actuar como un módulo y cada operación debe separarse en distintas funciones auxprecios.py, precios.py: imagina que tienes que crear un pequeño módulo en Python para analizar una lista de precios, el módulo debe utilizar unas funciones útiles para trabajar con esa lista, sin repetir cálculos. Después crea un pequeño programa en precios.py en el que las utilices.
+
+el archivo precios.py hazlo como un menú donde cada función sea una operación distinta y el usuario pueda introducir presios con gestión de errores

@@ -1,4 +1,5 @@
 tienda = {}
+
 while True:
     try:
         print("\n1. Insertar producto.")
@@ -51,7 +52,7 @@ while True:
         elif opcion == 0:
             print("\nSaliendo del programa...")
             break
-            
+        
         else:
             print("\nOpción no válida, por favor selecciona una opción del menú.")
         

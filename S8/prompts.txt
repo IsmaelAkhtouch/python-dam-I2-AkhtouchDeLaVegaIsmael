@@ -1,0 +1,30 @@
+Corrige los errores del siguiente código en python, refactoriza con funciones y maneja los distintos errores que el código pueda lanzar: 
+def programa():
+    alumnos = [] n = input("cuantos alumnos?") 
+    for i in range(0, int(n)): 
+        nota = int(input("nota:")) 
+        alumnos.append(nota) 
+    media = sum(alumnos)/len(alumnos) 
+    print("media", media) print("aprobados:") 
+    for i in alumnos:
+        if i>=5: 
+            print(i)
+
+Cambio realizado:
+La siguiente función utilizaba un mapeo para mostrar el número de alumnos aprobados.
+def mostrar_aprobados(notas):
+    """Muestra las notas aprobadas (>= 5)."""
+    aprobados = [n for n in notas if n >= 5]
+    if aprobados:
+        print("Aprobados:", ", ".join(map(str, aprobados)))
+    else:
+        print("No hay alumnos aprobados.")
+Lo he cambiado para que muestre el número de elementos de la lista de aprobados con la función len():
+def mostrar_aprobados(notas):
+    """Muestra las notas aprobadas (>= 5)."""
+    aprobados = [n for n in notas if n >= 5]
+    if aprobados:
+        print(f"Ha aprobado: {len(aprobados)} {"alumnos." if len(aprobados)>1 else "alumno"}")
+    else:
+        print("No hay alumnos aprobados.")
+
